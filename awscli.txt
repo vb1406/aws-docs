@@ -1,0 +1,24 @@
+AWS CLI setup
+
+Pre-requisites:
+1.IAM user with access keys and secret access keys
+
+Commands to install aws cli
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+sudo apt install unzip
+unzip awscliv2.zip
+sudo ./aws/install
+
+To configure aws cli
+aws configure
+
+To check aws cli version
+aws --version
+
+To verify aws cli working, list all s3 bucket
+aws s3 ls
+
+
+
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
